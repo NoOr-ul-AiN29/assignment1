@@ -26,6 +26,9 @@ public class Artwork{
 	
 	}
 	
+	public void settitle(String tittle){
+	this.tittle=tittle;
+	}
 	public String gettittle(){
 	return tittle;
 	}
