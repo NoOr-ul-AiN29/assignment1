@@ -4,6 +4,9 @@ public class Artist{
 	Artist(){
 	this.name="Default name";
 	}
+	Artist(Artist A){
+	this.name=A.name;
+	}
 
 	Artist(String name){
 	this.name=name;
